@@ -1,0 +1,30 @@
+server:
+  port: 8090
+  servlet:
+    context-path: /eriksdigital
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+#  security:
+#    oauth2:
+#      client:
+#        registration:
+#          github:
+#            clientId: 9ccab8b9eafa2c3ff5d6
+#            clientSecret: f029126ed5438e2ceb4cd784cdbf1df795159d51
+
+  h2:
+    console:
+      enabled: true
+
+#user:
+#  oauth:
+#    clientId: javadevjournal
+#    clientSecret: abc#1
+#    redirectUris: http://localhost:8090/login
+#    user:
+#      username: fred
+#      password: fred
+#    accessTokenValidity: 300
+#    refreshTokenValidity: 240000
