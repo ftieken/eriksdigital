@@ -1,8 +1,9 @@
 package nl.fredtieken.eriksdigital.controller;
 
-import nl.fredtieken.eriksdigital.OrderService;
+
 import nl.fredtieken.eriksdigital.entity.OrderDTO;
 import nl.fredtieken.eriksdigital.entity.ResponseDTO;
+import nl.fredtieken.eriksdigital.service.OrderService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
