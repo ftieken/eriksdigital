@@ -2,6 +2,7 @@
 
 # Docker
 docker build -t eriksdigital/order-docker .
+
 docker run -p 8090:8090 eriksdigital/order-docker
 
 # API documentation
